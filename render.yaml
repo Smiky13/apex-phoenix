@@ -1,4 +1,4 @@
 # Fichier render.yaml
-buildCommand: "npm install --force && npm exec vite build"
+buildCommand: "npm install --force && npm run build" // Retour à la version simple
 startCommand: "npm run dev"
 baseDir: "."
