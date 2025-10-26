@@ -3,12 +3,12 @@
   "version": "3.0.0",
   "description": "APEX Phoenix - Protocole de Transformation Complète",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "npx vite build", // CHANGEMENT CRITIQUE
+  "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview"
+},
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
